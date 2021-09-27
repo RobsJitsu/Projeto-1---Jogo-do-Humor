@@ -1,0 +1,13 @@
+const textoCan = document.querySelector("#botaocan");
+const textoAle = document.querySelector("#textoale");
+const textoPor = document.querySelector("#textopor");
+
+textoCan.addEventListener("click", function(){
+    canada.src = "Quebec é a principal província que oferece vagas, mas Montreal, Alberta e Toronto também possuem vagas. Para se candidatar, o profissional precisa ter inglês ou francês fluente e ter formação em TI ou áreas correlatas.</p>";
+});
+textoAle.addEventListener('click', function(){
+    alemanha.src = "Passou a ser vista como um dos países europeus mais bem preparados para conquistar posições mundiais de liderança nos mais complexos campos da tecnologia. Um dos motivos é o recente boom de investimentos em startups. Segundo o estudo Start-up-Barometer Deutschland, da Ernst Young, os investimentos em startups alemãs saltaram 88% em 2017, atingindo 5,3 bilhões de euros. E para isso, abre oportunidades para profissionais gabaritados a ajudar o país nessa missão.";
+});
+textoPor.addEventListener('click', function(){
+    portugal.src = "A área de TI no país possui uma grande demanda de profissionais qualificados. Por isso, o país criou até um visto especial para atrair profissionais de TI. Batizado de Tech Visa, o novo visto é menos burocrático do que muitos dos vistos de trabalho. Para ser elegível ao visto tecnológico, o candidato precisa ser recrutado por empresas que tenham aderido ao programa junto ao Ministério da Economia português.";
+});
