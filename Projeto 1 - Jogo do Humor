@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dev Exportado</title>
+</head>
+<body>
+    <header>
+        <h1 id="gatilho01"><ins>Já sonhou em trampar no exterior?</ins></h1>
+        <figure>
+            <img class="fotos" src="destinos-nomades-digitais-capa2019-01.jpg" alt="foto nômade na rua" height="300" width="300">
+            <img class="fotos" src="nomade-digital-chiang-mai-tailandia.jpg" alt="foto nômade Tailândia" height="300" width="300">
+            <img class="fotos" src="nômades-digitais--2-_138147.jpg" alt="foto nômade motorhome" height="300" width="300">
+            <img class="fotos" src="se-tornar-nomade.jpg" alt="foto nômade praia" height="300" width="300">                   
+        </figure>
+        <div class="video"> 
+            <p id="inpiracao">Se inspirou nas imagens?? Escolha um dos países abaixo</p> 
+            <div id="textoassita">  
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0pTtLHZPm_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p id="nomade">Assista e saiba mais sobre nomadismo digital</p>
+            </div>
+        </div>
+    </header>   
+    <main>
+        <section>
+            <div>
+            <h2 id="escolha">Escolha um dos países abaixo!!</h2>
+            
+            <article>
+                <div id="dados">
+                    <div id="can">
+                        <h3 class="paises">Canadá</h3>
+                        <img src="canada.png" alt="foto bandeira Canadá" height="250" width="300">
+                        <section class="botao">
+                            <button id="botaocan">Click para selecionar Canadá</button>
+                        </section>
+                    </div>
+                    <div id="can">
+                        <h3 class="paises">Alemanha</h3>
+                        <img src="alemanha.png" alt="foto bandeira Alemanha" height="250" width="300">
+                        <section class="botao">
+                            <button id="botaoale">Click para selecionar Alemanha</button>
+                        </section>
+                    </div>
+                    <div id="can">
+                        <h3 class="paises">Portugal</h3>
+                        <img src="portugal.png" alt="foto bandeira Portugal" height="250" width="300">
+                        <section class="botao">
+                            <button id="botaopor">Click para selecionar Portugal</button>
+                        </section>
+                    </div> 
+                </div>       
+        </section>
+    </main>
+    <footer>
+        <p><mark><strong>www.robsinergias.com</strong></mark></p>
+    </footer>  
+    <script src="./script.js"></script>
+</body>
+</html>
