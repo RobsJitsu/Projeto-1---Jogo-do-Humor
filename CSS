@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(250, 229, 250);
+    margin: 0;
+    padding: 0;
+}
+#gatilho01{
+    color:orangered;
+    font-size:50px;
+    padding: 50px;
+    text-align: center;
+}
+figure{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#inpiracao{
+    color: blue;
+    font-size: 70px;
+    padding: 50px;
+    margin: 40px;
+    border-width: 2px;
+    border-color: rgb(217, 255, 0);
+    border-style: solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px; 
+    text-align: center;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    align-items: center;
+}
+#nomade{
+    color: rgb(253, 0, 139);
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    border: 0px;
+}
+main{
+    background: rgb(235, 243, 242);  
+    border-top-style: solid;
+    color: rgb(0, 195, 255);
+    text-align: center;
+}
+#escolha{
+    font-size: 40px;
+    color: rgb(235, 84, 84);
+    padding: 50px;
+}
+#dados{
+    display: flex;
+    justify-content: space-evenly;
+}
+.paises{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(255, 0, 0)  
+}
+.botao{
+    padding: 30px;
+}
+footer{
+    padding: 10px;
+    background: rgb(0, 255, 225);
+    text-align: center;
+    border-top-style: solid;
+    border-color: blueviolet; 
+    font-size: 15px;
+}
+
